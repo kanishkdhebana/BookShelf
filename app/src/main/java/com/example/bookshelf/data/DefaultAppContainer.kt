@@ -13,7 +13,7 @@ interface AppContainer {
 }
 
 class DefaultAppContainer: AppContainer {
-    private val apiKey = "AIzaSyAeC9DRKSbDC0zXRvaQsDEQ9hlf2rqDfjY"
+    private val apiKey = "your-api-key"
     private val baseUrl = "https://www.googleapis.com/books/v1/"
 
     private val loggingInterceptor = HttpLoggingInterceptor().apply {
